@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// 在 script.js 中
-
 let isChinese = true; // 默认语言为中文
 
 function toggleLanguage() {
@@ -35,7 +33,8 @@ function toggleLanguage() {
 function updateLanguage(isChinese) {
     const languageData = {
         // 添加你的中英文内容
-        // 例如: "Teams介绍": {"zh": "团队介绍", "en": "Teams Overview"}
+        "Teams介绍": {"zh": "团队介绍", "en": "Teams Overview"},
+        
     };
 
     sections.forEach(section => {
