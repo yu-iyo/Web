@@ -6,15 +6,55 @@ body, h1, h2, p {
 
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* 浅灰色背景 */
+    color: #333; /* 主要文本颜色 */
 }
 
-/* Basic styling */
+/* Header styles */
+header {
+    background-color: #fff; /* 白色背景 */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+header h1 {
+    color: #0077cc; /* MIT 蓝色标题 */
+    font-size: 24px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #0077cc;
+}
+
+nav a {
+    color: #fff; /* 白色导航链接 */
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Basic styling for sections */
 section {
     margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #333;
+/* Styles for specific sections */
+section h2 {
+    color: #0077cc; /* MIT 蓝色标题 */
+}
+
+/* Links in content */
+section a {
+    color: #0077cc; /* MIT 蓝色链接 */
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
 }
 
 /* Add more styles as needed for your specific design */
