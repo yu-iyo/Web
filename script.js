@@ -51,7 +51,7 @@ function updateLanguage(isChinese) {
     const languageData = {
         // 添加你的中英文内容
         "團隊介紹": {"zh": "團隊介紹", "en": "Teams Overview"},
-        "項目"：{"zh": "項目", "en": "Teams Overview"}
+        "項目"：{"zh": "項目", "en": "Teams Overview"},
     };
 
     sections.forEach(section => {
